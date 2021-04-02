@@ -1,0 +1,156 @@
+body {
+    background-color: lightblue;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30vw;
+    height: 30vw;
+    background-color: coral;
+    border-radius: 50%;
+    transform: translate(70%, -30%);
+}
+
+.card {
+    height: 80vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.avatar {
+    padding: 15px;
+    background-color: rgba(160, 160, 160, 0.5);
+    margin-left: auto;
+    margin-right: auto;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 15px rgba(44, 52, 66, 0.8);
+    border-radius: 25px;
+}
+
+.avatar svg {
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+i {
+    background-size: 150px 150px;
+}
+
+.svgBox {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.avatarForm {
+    margin-top: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.textBox {
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.textBox:focus {
+    outline-color: black;
+    outline-style: 1px solid black;
+}
+
+.blackFill {
+    fill: black;
+}
+
+.greenFill {
+    fill: green;
+}
+
+.redFill {
+    fill: red;
+}
+
+.blueFill {
+    fill: blue;
+}
+
+.orangeFill {
+    fill: orange;
+}
+
+.hide {
+    display: none;
+}
+
+.colorButtons {
+    margin: 0 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 5px;
+    width: 15px;
+    height: 15px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    margin: 15px 0;
+    justify-content: center;
+}
+
+.submitButton {
+    width: 50%;
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.submitButton:hover {
+    background-color: rgba(100, 100, 100, 0.5);
+}
+
+.colorButtons {
+    outline: none;
+}
+
+#Person {
+    fill: yellow;
+}
+
+#Hair {
+    fill: brown;
+}
+
+#Shoes path {
+    fill: white;
+}
+
+.avatarButton {
+    margin-left: 15px;
+}
